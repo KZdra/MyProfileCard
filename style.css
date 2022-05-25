@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif
+}
+body{
+    background-image: url(background.jfif);
+    background-size: cover;
+}
+
+.profile{
+    width: 350px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.8   );
+    margin: 20px auto;
+    border-radius: 5%;
+    
+    
+}
+
+.profile > img{     
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 84px;
+    margin-top: 15px; 
+    
+
+}
+
+.profile > h1 {
+    display: grid;
+    place-items:center;
+    color: #eaeaea;
+}
+
+.profile > h2 {
+    color:#eaeaea;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.profile > p {
+    display: grid;
+    place-items: center;
+    color: #eaeaea;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.profile i:hover{
+    color:darkblue;
+}
+
+.icon {
+    margin-left: 131px;
+    margin-top: 10px;
+}
+
+.profile .icon i {
+    padding: 5px;
+    background: #eaeaea; 
+    transition: 0.25s;
+}
+
+.profile .icon .github:hover{
+    color: blueviolet;
+}
+
+.profile .icon .youtube:hover{
+    color: red;
+}
